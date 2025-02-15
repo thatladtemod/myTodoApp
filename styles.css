@@ -28,8 +28,8 @@ header {
 .container {
     background: white;
     height: auto;
-    width: 70%;
-    max-width: 400px;
+    width: 80%;
+    min-width: 400px;
     border: none;
     border-radius: 7px;
     /* padding: 20px;
@@ -51,9 +51,11 @@ header {
 
 #input>#inputBox {
     width: 200px;
+    min-width: 50px;
     border: 2px solid orangered;
     border-radius: 7px;
     outline: none;
+    margin: 0 10px;
 }
 
 #input>button {
